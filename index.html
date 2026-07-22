@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Демонстрационный лендинг салона красоты NOIR." />
+    <meta name="theme-color" content="#a8664b" />
+    <title>NOIR — пространство красоты</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="header shell">
+      <a class="logo" href="#top" aria-label="NOIR — на главную">NOIR<span>•</span></a>
+      <button class="menu-button" aria-expanded="false" aria-controls="nav"><span></span><span></span><i class="sr-only">Открыть меню</i></button>
+      <nav id="nav" class="nav" aria-label="Основная навигация">
+        <a href="#about">О нас</a><a href="#services">Услуги</a><a href="#team">Мастера</a><a href="#contacts">Контакты</a>
+      </nav>
+      <a class="header-book" href="#booking">Онлайн-запись <b>↗</b></a>
+    </header>
+
+    <main id="top">
+      <section class="hero shell">
+        <div class="hero-copy"><p class="eyebrow">пространство красоты в центре города</p><h1>Красота, в которой <em>вы — главное</em></h1><p>Внимательно слушаем, бережно заботимся и создаём образ, в который хочется возвращаться.</p><a class="button button-light" href="#booking">Выбрать мастера <span>↗</span></a></div>
+        <div class="hero-image"><img src="/public/beauty/hero.png" alt="Девушка с вечерним макияжем в бьюти-салоне" /><div class="hero-note"><b>NOIR</b><span>красота без шума</span></div></div>
+        <div class="hero-side"><p>01 / 04</p><div><span>Пн–Вс</span><strong>10:00 — 22:00</strong></div><a href="#services">Листайте ниже <i>↓</i></a></div>
+      </section>
+
+      <section class="intro shell" id="about"><div><p class="eyebrow">о компании</p><h2>Красота — это <em>ваше ощущение себя.</em></h2></div><div class="intro-text"><p>NOIR — место для спокойной заботы о себе. Мы собрали мастеров разных направлений, чтобы один визит мог стать вашей маленькой паузой и обновлением.</p><a class="text-link" href="#contacts">Узнать о салоне <span>↗</span></a></div></section>
+
+      <section class="benefits shell"><article><span>01</span><h3>Внимание к деталям</h3><p>Начинаем с разговора — чтобы услуга отвечала вашему запросу.</p></article><article><span>02</span><h3>Спокойная атмосфера</h3><p>Ничего лишнего: мягкий свет, тактильные материалы и время для себя.</p></article><article><span>03</span><h3>Честный подход</h3><p>Подскажем подходящий уход и понятный план без навязанных процедур.</p></article></section>
+
+      <section class="services shell" id="services"><div class="section-top"><div><p class="eyebrow">направления</p><h2>Выберите <em>свой ритуал</em></h2></div><a class="round-link" href="#price">Смотреть<br />прайс ↗</a></div><div class="service-grid"><a href="#booking"><span>01</span><h3>Волосы</h3><p>Стрижки, окрашивание, уход</p><i>↗</i></a><a href="#booking"><span>02</span><h3>Лицо</h3><p>Макияж, брови, уход</p><i>↗</i></a><a href="#booking"><span>03</span><h3>Ногти</h3><p>Маникюр и педикюр</p><i>↗</i></a><a href="#booking"><span>04</span><h3>Тело</h3><p>Массаж и spa-уход</p><i>↗</i></a></div></section>
+
+      <section class="booking shell" id="booking"><div class="booking-art"><img src="/public/beauty/hero.png" alt="" /><span>ваш<br />время</span></div><div class="booking-copy"><p class="eyebrow">онлайн-запись</p><h2>Встретьтесь с <em>вашим мастером</em></h2><p>Выберите направление, удобный день и специалиста. Подтверждение записи придёт сразу после оформления.</p><div class="master-pills"><button class="selected" type="button">Алина · волосы</button><button type="button">Ева · лицо</button><button type="button">Маша · ногти</button></div><a class="button button-dark" href="#request">Записаться к Алине <span>↗</span></a></div></section>
+
+      <section class="team shell" id="team"><div class="section-top"><div><p class="eyebrow">команда</p><h2>Люди, которым <em>можно доверять</em></h2></div><p class="section-summary">Познакомьтесь с командой перед визитом и выберите специалиста по своему настроению.</p></div><div class="team-grid"><article class="person one"><div><span>Алина М.</span><small>стилист по волосам</small></div></article><article class="person two"><div><span>Ева Р.</span><small>бровист · визажист</small></div></article><article class="person three"><div><span>Мария К.</span><small>нейл-мастер</small></div></article></div></section>
+
+      <section class="gallery shell"><div class="section-top"><div><p class="eyebrow">галерея</p><h2>Моменты <em>NOIR</em></h2></div><a class="text-link" href="#contacts">Больше в соцсетях <span>↗</span></a></div><div class="gallery-grid"><div class="g-one"></div><div class="g-two"></div><div class="g-three"><p>Тишина, свет<br />и забота о вас.</p></div></div></section>
+
+      <section class="before-after shell"><div><p class="eyebrow">портфолио</p><h2>До и после:<br /><em>в центре — вы</em></h2><p>Здесь будут появляться реальные работы мастеров с согласия гостей салона.</p></div><div class="comparison comparison-static"><img src="/public/beauty/before-after.png" alt="Результат макияжа до и после" /><span class="comparison-label label-before">до</span><span class="comparison-label label-after">после</span></div></section>
+
+      <section class="price shell" id="price"><div class="section-top"><div><p class="eyebrow">прайс-лист</p><h2>Прозрачно о <em>процедурах</em></h2></div><a class="button button-outline" href="#request">Запросить полный прайс <span>↓</span></a></div><div class="price-list"><div><span>Стрижка и укладка</span><b>от 2 500 ₽</b></div><div><span>Окрашивание волос</span><b>от 5 500 ₽</b></div><div><span>Маникюр с покрытием</span><b>от 2 200 ₽</b></div><div><span>Архитектура бровей</span><b>от 1 800 ₽</b></div></div></section>
+
+      <section class="offers shell"><div><p class="eyebrow">подарочные сертификаты</p><h2>Дарите не вещь,<br /><em>а время для себя</em></h2><p>Электронный или печатный сертификат на любую сумму — для тех, кому хочется сказать «позаботься о себе».</p><a class="button button-light" href="#request">Выбрать сертификат <span>↗</span></a></div><div class="certificate"><span>NOIR</span><small>Gift certificate</small><b>для особенного<br />дня</b></div></section>
+
+      <section class="reviews shell"><div class="section-top"><div><p class="eyebrow">отзывы</p><h2>Ваши впечатления <em>важнее всего</em></h2></div></div><div class="review-empty"><span>✦</span><p>Здесь появятся отзывы гостей после первых визитов.</p></div></section>
+
+      <section class="faq shell"><p class="eyebrow">faq</p><h2>Вопросы, которые<br /><em>можно не держать в голове</em></h2><details><summary>Как подготовиться к визиту?<span>+</span></summary><p>После выбора услуги администратор подскажет всё необходимое перед записью.</p></details><details><summary>Можно ли отменить или перенести запись?<span>+</span></summary><p>Да, пожалуйста, сообщите нам заранее — мы найдём другое удобное время.</p></details><details><summary>Как купить подарочный сертификат?<span>+</span></summary><p>Оставьте заявку ниже: подготовим электронный или печатный вариант.</p></details></section>
+
+      <section class="contacts shell" id="contacts"><div><p class="eyebrow">контакты</p><h2>Будем рады<br /><em>вашему визиту</em></h2><p>Адрес, телефон и ссылки на соцсети заполняются перед публикацией сайта.</p></div><div class="contact-card"><p>NOIR beauty space</p><a href="#request">Написать администратору <span>↗</span></a></div></section>
+
+      <section class="request shell" id="request"><div><p class="eyebrow">форма заявки</p><h2>Начните с <em>простого сообщения</em></h2></div><form><label>Как вас зовут?<input required placeholder="Ваше имя" /></label><label>Как с вами связаться?<input required placeholder="Телефон или Telegram" /></label><label>Что вам интересно?<select><option>Выберите услугу</option><option>Запись к мастеру</option><option>Прайс-лист</option><option>Подарочный сертификат</option></select></label><label class="consent"><input type="checkbox" required /><span>Я соглашаюсь на <a href="/privacy.html">обработку персональных данных</a>.</span></label><button class="button button-dark" type="submit">Отправить заявку <span>↗</span></button></form></section>
+    </main>
+    <footer class="footer shell"><a class="logo" href="#top">NOIR<span>•</span></a><p>Пространство красоты,<br />в котором вы — главное.</p><a href="#top">Наверх ↑</a></footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
