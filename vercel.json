@@ -1,0 +1,4 @@
+{
+  "buildCommand": "mkdir -p dist && cp index.html privacy.html favicon.svg robots.txt sitemap.xml script.js styles.css dist/ && cp -R public dist/",
+  "outputDirectory": "dist"
+}
