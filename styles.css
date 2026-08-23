@@ -14,3 +14,12 @@
 .comparison-static{width:100%;max-width:none;height:auto;aspect-ratio:3/2;display:block;justify-self:stretch;cursor:default;background:none}.comparison-static img{display:block;width:100%;height:100%;object-fit:cover}.comparison-static .comparison-label{position:absolute;z-index:1;top:26px;margin:0;padding:15px 20px;background:#fff;color:var(--ink);font-size:15px;font-weight:800}.comparison-static .label-before{left:26px}.comparison-static .label-after{right:26px}.comparison-static .comparison-mark{position:absolute;z-index:1;left:50%;top:50%;display:grid;place-items:center;width:80px;height:80px;margin:0;padding:0;transform:translate(-50%,-50%);border-radius:50%;background:var(--ink);color:#fff;font-size:27px;font-weight:800}.comparison-static .before,.comparison-static .after,.comparison-static .comparison-range,.comparison-static .comparison-handle{display:none}@media(max-width:760px){.comparison-static{aspect-ratio:1/1.1}.comparison-static .comparison-label{top:14px;padding:10px 14px;font-size:12px}.comparison-static .label-before{left:14px}.comparison-static .label-after{right:14px}.comparison-static .comparison-mark{width:52px;height:52px;font-size:18px}}
 .before-after h2{max-width:470px;line-height:1.06}
 .request .consent{display:flex;align-items:flex-start;gap:10px;margin-top:5px;color:#685e58;font-size:11px;font-weight:500;line-height:1.5;letter-spacing:0;text-transform:none}.request .consent input{display:block;flex:0 0 auto;width:17px;height:17px;margin:0;border:1px solid var(--ink);accent-color:var(--ink)}.request .consent a{text-decoration:underline;text-underline-offset:2px;color:var(--ink)}
+/* Standalone notice for the non-production demo form. */
+.privacy-header{position:static;border-bottom:1px solid var(--line)}
+.privacy-page{max-width:900px;padding-top:clamp(64px,10vw,128px);padding-bottom:clamp(80px,12vw,160px)}
+.privacy-page h1{max-width:780px;margin:18px 0 44px;font-family:'Playfair Display',serif;font-size:clamp(48px,8vw,96px);font-weight:600;line-height:.94;letter-spacing:-.035em}
+.privacy-page h1 em{font-weight:600;color:var(--clay)}
+.privacy-card{display:grid;gap:12px;max-width:720px;margin-bottom:36px;padding:clamp(24px,5vw,48px);border:1px solid var(--line);background:var(--paper)}
+.privacy-card h2{margin:18px 0 0;font-size:18px;line-height:1.2}
+.privacy-card h2:first-child{margin-top:0}
+.privacy-card p{max-width:68ch;margin:0;color:#6c625c;font-size:15px;line-height:1.55}
